@@ -1,0 +1,19 @@
+nav {
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.navLink{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navLink:hover{
+    text-decoration:underline;
+    
+}

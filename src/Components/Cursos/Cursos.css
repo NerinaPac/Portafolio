@@ -1,0 +1,17 @@
+.cursos H2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.cuadroCursos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bloqueCurso{
+    text-align: center;
+    background-color: chartreuse;
+    width: 20rem;
+}
+

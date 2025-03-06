@@ -1,0 +1,15 @@
+.contSobreMi{
+    display: flex;
+    width: 100%;
+    background-color: burlywood;
+
+}
+
+.textSobreMi{
+margin: auto;
+text-align: center;
+padding: 1rem 4rem;
+font-size:x-large;
+
+}
+

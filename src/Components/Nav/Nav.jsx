@@ -1,19 +1,23 @@
 import {NavLink} from "react-router"
+import "./Nav.css"
 
 function Nav() {
+
+    const itemNav = [
+        { path: "/", label: "Sobre mi" },
+        { path: "/proyectos", label: "Proyectos" },
+        { path: "/contactos", label: "Contactos" },
+      ];
 
 return(
      <nav>
         <ul>
-            <li>
-            <NavLink to="/" end> Sobre mi </NavLink>
-            </li>
-            <li>
-            <NavLink to="/" end> Proyectos </NavLink>
-            </li>
-            <li>
-            <NavLink to="/" end> Contactos </NavLink>
-            </li>
+            {itemNav.map((item, index) => (
+                <li key={index}>
+                    <NavLink className="navLink"  to={item.path} end> {item.label} </NavLink>
+                </li>
+            ))}
+            
         </ul>
     </nav>
 )

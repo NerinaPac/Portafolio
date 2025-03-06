@@ -8,8 +8,8 @@ function Ball (){
     // Función para actualizar las coordenadas del mouse
     const manejarMovimientoMouse = (e) => {
       setPosicion({
-        x: e.clientX, // Coordenada X del mouse
-        y: e.clientY, // Coordenada Y del mouse
+        x: e.clientX,
+        y: e.clientY
       });
     };
 
@@ -23,19 +23,12 @@ function Ball (){
 
     }, []);
 
-
-
-console.log(posicion)
-
 return(
-       //deberia estar en el contenedor para que no deje de moverse.
+      
         <div className="Ball"
-        style={{
-            backgroundColor:"black",
-            top: `${posicion.y - 20}px`,
-            left:`${posicion.x - 20}px`,
-            position:"absolute"
-        }}>
+        style={{ top: `${posicion.y - 20}px`, left:`${posicion.x - 20}px` }}>
+            
+            <img src="../../../public/catmouse.png" alt="gatito" className="imgGatito" />
 
         </div>
 )

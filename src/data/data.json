@@ -1,0 +1,16 @@
+{
+    "cursos": [
+      {
+        "nombre": "FullStack - Universidad Tecnológica de Buenos Aires - 2022",
+        "institucion": "Universidad Tecnológica de Buenos Aires",
+        "detalle": "En este curso aprendí los conceptos básicos de lenguajes de marcado como HTML y de estilos como CSS y SASS. También aprendí a usar repositorios locales y remotos con herramientas como GitHub y Git. Además, adquirí conocimientos fundamentales de JavaScript, bases de datos MySQL, y trabajé con los frameworks Angular y Express.",
+        "imagen":"../../../public/utnpng.png"
+      },
+      {
+        "nombre": "FullStack - CoderHouse - 2023",
+        "institucion": "CoderHouse",
+        "detalle": "En este curso repasé los conceptos de lenguajes de marcado como HTML, de estilos como CSS y SASS, y el manejo de repositorios locales y remotos con GitHub y Git. Refresqué mis conocimientos sobre JavaScript y aprendí los nuevos conceptos de ES6. También empecé a trabajar con la librería React. Por cuestiones personales, no pude completar el curso, quedándome pendiente los módulos de backend.",
+        "imagen":"../../../public/coderhouse.png"
+      }
+    ]
+}
