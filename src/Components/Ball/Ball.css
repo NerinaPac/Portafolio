@@ -1,0 +1,9 @@
+.Ball{
+width: 3rem;
+height: 3rem;
+background-color: aqua;
+border-radius: 50%;
+position: absolute;
+transition: all 1s;
+
+}
