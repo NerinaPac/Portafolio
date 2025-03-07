@@ -6,12 +6,19 @@
 .cuadroCursos{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 5rem;
 }
 
 .bloqueCurso{
     text-align: center;
-    background-color: chartreuse;
     width: 20rem;
 }
 
+.imgCurso{
+    height: 10rem;
+}
+
+.imgCurso img{
+    width: 100%;
+    height: 100%;
+}

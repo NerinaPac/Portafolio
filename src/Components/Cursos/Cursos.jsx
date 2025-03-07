@@ -9,7 +9,9 @@ function Cursos ({infoCursos}){
             <div className="cuadroCursos">
                 {infoCursos.map((item, index) => (
                     <div key={index}  className="bloqueCurso">
-                    <img src={item.imagen} alt={item.institucion} />
+                    <div className="imgCurso">
+                        <img src={item.imagen} alt={item.institucion} />
+                    </div>
                     <h3>{item.nombre}</h3>
                     <p>{item.detalle}</p>
                 </div>

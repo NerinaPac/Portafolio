@@ -8,10 +8,10 @@ import Cursos from "../Components/Cursos/Cursos";
 
 function Home () {
 
-    const [info, setInfo] = useState([]);
+    const [info, setInfo] = useState({sobreMi:[], cursos:[]});
   
     useEffect(() => {
-      setInfo(Data.cursos);
+      setInfo(Data);
     }, []); 
 
 
@@ -19,9 +19,11 @@ function Home () {
         <>
         <Header></Header>
         <Ball></Ball>
-        <SobreMi></SobreMi>
+        <SobreMi 
+        infoSobreMi={info.sobreMi[0]}
+        />
         <Cursos 
-        infoCursos={info}
+        infoCursos={info.cursos}
         />
         </>
 

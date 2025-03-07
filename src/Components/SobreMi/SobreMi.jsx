@@ -1,17 +1,13 @@
 import "./SobreMi.css"
-function SobreMi () {
+function SobreMi ({infoSobreMi}) {
 
     return(
         <section className="contSobreMi">
             <div className="textSobreMi">
-                <h1> Hola! 👋  Soy Nerina Paccor</h1>
-                <p> Soy una desarrollador en constante crecimiento. Cada línea de código es un paso más en este viaje donde aprendo, experimento y disfruto creando cosas nuevas.
-                </p>
-                <p>
-                Actualmente trabajo en una Empresa de Seguridad en Argentina, mientras complemento mi formación como desarrollador a través de proyectos personales y cursos.                
-                </p>
+                <h1>{infoSobreMi.saludo}</h1>
+                <p>{infoSobreMi.presentacion}</p>
             </div>
-            <img className="imgSobreMi"   src="../../../public/MIFOTOCV.png" alt="una foto de una mujer" />
+            <img className="imgSobreMi"   src={infoSobreMi.imagen} alt={infoSobreMi.descripcionImagen} />
            
         </section>
     )
