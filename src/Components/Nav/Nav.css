@@ -5,15 +5,15 @@ nav {
 ul {
     list-style: none;
     display: flex;
+    gap: 1rem;
 }
 
 .navLink{
-    padding: 0 1rem;
+    background-color: #ffc8dd;
+    padding: 1rem;
+    border-radius: 15%;;
     text-decoration: none;
+    box-shadow: 5px 5px 5px #ffafcc ;
     color: black;
 }
 
-.navLink:hover{
-    text-decoration:underline;
-    
-}

@@ -1,6 +1,9 @@
+.cursos{
+    padding: 2rem;
+}
+
 .cursos H2{
     text-align: center;
-    padding: 1rem;
 }
 
 .cuadroCursos{
@@ -19,6 +22,6 @@
 }
 
 .imgCurso img{
-    width: 100%;
+    width: 80%;
     height: 100%;
 }

@@ -1,14 +1,11 @@
 {
-    "sobreMi": [
-      {
+    "sobreMi": {
         "saludo": "Hola!👋 Soy Nerina Paccor, un placer!",
         "presentacion": "Soy una desarrollador en constante crecimiento. Cada línea de código es un paso más en este viaje donde aprendo, experimento y disfruto creando cosas nuevas. Actualmente trabajo en una Empresa de Seguridad en Argentina, mientras complemento mi formación como desarrollador a través de proyectos personales y cursos. Vivo en Buenos Aires, tengo 32 años y me gustan los animales",
         "imagen":"../../../public/MIFOTOCV.png",
         "descripcionImagen":"una foto de una mujer"
 
-      }
-
-    ],
+    },
 
     "cursos": [
       {

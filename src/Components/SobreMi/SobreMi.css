@@ -1,15 +1,22 @@
 .contSobreMi{
     display: flex;
-    width: 100%;
-    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
 
 }
 
 .textSobreMi{
-margin: auto;
-text-align: center;
-padding: 1rem 4rem;
-font-size:x-large;
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    font-size: 3rem;
+    text-shadow: -3px -3px 10px rgba(0, 0, 0, 0.5);
 
+}
+
+.sigmar-regular {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
